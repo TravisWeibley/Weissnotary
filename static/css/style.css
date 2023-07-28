@@ -1,0 +1,124 @@
+body{
+    background-color: red;
+}
+
+
+
+#usertext{
+    position: relative;
+    left: 33px;
+}
+
+#sendbutton{
+    font-weight: bold;
+    width: 20mm;
+    height: 10mm;
+}
+
+
+
+footer{
+    text-align: center;
+}
+
+#like{
+  position: relative;
+  left: 50px;
+  width: 140px;
+  height: 50px;
+}
+
+
+#dislike{
+  position: relative;
+  left: 350px;
+  top: -66px;
+  width: 140px;
+  height: 50px;
+}
+
+#sendbutton:hover, #like:hover, #dislike:hover{
+  background-color: green;
+  border-color: green;
+}
+
+#companyname{
+  font-size: 50pt;
+  text-align: center;
+}
+
+
+
+
+
+
+
+#davidname{
+  text-align: center;
+  position: relative;
+  left: -220px;
+  top: -13px;
+}
+
+#davidphone{
+  text-align: center;
+  position: relative;
+  left: -220px;
+  top: -34px;
+}
+
+#davidemail{
+  text-align: center;
+  position: relative;
+  left: -220px;
+  top: -55px;
+}
+
+
+
+
+
+
+
+#rubyname{
+  text-align: center;
+  position: relative;
+  left: 220px;
+  top: -135px;
+}
+
+#rubyphone{
+  text-align: center;
+  position: relative;
+  left: 220px;
+  top: -156px;
+}
+
+#rubyemail{
+  text-align: center;
+  position: relative;
+  left: 220px;
+  top: -177px;
+}
+
+
+.contact{
+  font-size: 20px;
+}
+
+
+
+
+
+#thankyoubutton{
+  font-size: 15pt;
+  height: 30px;
+}
+
+#thankyoubutton:hover{
+  background-color: green;
+  border-color: green;
+}
+
+
+
