@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Weiss Notary</title>
+    <script src="{{url_for('static', filename='javascript/main.js')}}"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" type="text/css"/>
+
+    <link rel="shortcut icon" type="image/png" href="{{url_for('static', filename='images/0057-500x500.png')}}"/>
+    
+</head>
+<body>
+    <br/>
+    <br/>
+    <h1 id="companyname" >Weiss' Notary Services, LLC</h1>
+  
+    <h3 id="davidname">David C. Weiss</h3>
+    <h3 id="davidphone">(717) 599-8031</h3>
+    <h3 id="davidemail">dweissnotary@aol.com</h3>
+
+    <h3 id="rubyname">Ruby J. Weiss</h3>
+    <h3 id="rubyphone">(717) 557-6464</h3>
+    <h3 id="rubyemail">crjc122@aol.com</h3>
+    <h2><u>Services For Weiss Notary Services, LLC</u>:</h2>
+
+    <ul>
+        <li>Loan Documents</li>
+        <li>Trust/Power Attorney</li>
+        <li>Living Wills</li>
+        <li>Last Will and Testament</li>
+        <li>Refinancing and Mortgages</li>
+        <li>Acknowledgements</li>
+        <li>Bank Forms</li>
+        <li>Veteran Owned Business</li>
+    </ul>
+
+
+
+    <br/>
+    <br/>
+    <hr/>
+    <br/>
+    <br/>
+
+    <p>If you have any questions or concerns. Please contact the owner either by telephone or by email.</p>
+    <br/>
+    <form action="" method="post" style="font-size: 20px;"> 
+      
+        Email: <input type="email" id="em" class="contact" name="email" placeholder="Enter your email" required />
+        <br/>
+        <br/>
+        Subject: <input type="text" id="subject" class="contact"  name="_subject" placeholder="Enter a subject" required />
+        <br/>
+        <br/>
+        Message: <textarea wrap="hard" id="usertext" rows="2" cols="30" name="message" class="contact" placeholder="Enter your message" required></textarea>
+
+        <br/>
+        <br/>
+        <input type="hidden" name="_captcha" value="false"/>
+        <input type="submit" id="sendbutton" value="Send" />
+
+    </form>
+
+    <br/>
+    <br/>
+    <br/>
+    <p>Was the website reliable, please and thank you answer below.</p>
+    <br/>
+    <form id="siteliked" action="/liked">
+      <button id="like" type="submit">Yes</button>
+    </form>
+    <br/>
+    <form id="sitedisliked" action="/disliked">
+      <button id="dislike" type="submit">No</button>
+    </form>
+    <br/>
+    <br/>
+    <br/>
+    <footer>Copyright &copy; 2023</footer>
+    <br/>
+    <br/>
+    <br/>
+
+
+</body>
+</html>
